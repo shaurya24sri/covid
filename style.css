@@ -1,0 +1,245 @@
+*{
+	margin:0;
+	padding: 0%;
+	box-sizing:border-box;
+	font-family: 'Josefin Sans', sans-serif;
+
+	}
+
+header{
+	width:100%;
+	height:100vh;
+    background-image:url('img/back3.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.head1{
+	width:100%;
+	height:100vh;
+    background-image:url('img/Back4.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.main_head{
+	width:100%;
+	display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.main_head nav a:hover {
+  color: #cc0000;
+}
+.main_head .logo img{
+	padding-left:40px;
+	width:250px;
+	height:70px;
+}
+ 
+	
+.main_head nav{
+	width:450px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.main_head nav a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:black;
+}
+.main_head button{
+	padding:10px 45px;
+	text-align:center;
+	font-size:14px;
+	color:white;
+	border:none;
+	/*background-image:linear-gradient(to right,#649bff,#0070fa,#649bff);*/ 
+	border-radius:10px;
+
+	background:#ff6666;
+}
+ .main_head button:hover {background-color: #ff9933}
+ .main_head button:active {
+  background-color: #ff9933;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.menu{
+	margin-right:60px;
+}
+main{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+main .right{
+	padding:70px;
+}
+.right img{
+	width:500px;
+	height:380px;
+	margin-top: 70px;
+}
+.right h1{
+	color:#99004c;
+	margin-top: 20px;
+}
+.right h2{
+	font-size:20px;
+	text-transform:capitalize;
+	font-weight:lighter;
+	margin-top:10px;
+}
+main .left{
+	padding:100px;
+}
+.left h2{
+	font-size:20px;
+	text-transform:capitalize;
+	font-weight:lighter;
+	margin-top:70px;
+}
+.left h1{
+	font-size:55px;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin:20px 0;
+}
+.left h3{
+margin:20px 0;
+}
+.left p{
+	margin-bottom:55px;
+}
+.left button{
+	padding:15px 35px;
+	text-align:center;
+	font-size:14px;
+	color:white;
+	border:none;
+	border-radius:10px;
+
+	background:#ff6666;
+}
+.left button:hover {background-color: #ff9933}
+ .left button:active {
+  background-color: #ff9933;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+main .top{
+	padding:100px;
+}
+.top{
+	padding:100px
+}
+.top button{
+	padding:15px 45px;
+	
+	font-size:14px;
+	color:white;
+	border:none;
+	border-radius:10px;
+	background:#00994c;
+
+}
+.top button:hover {background-color: #99ff33}
+ .top button:active {
+  background-color: #99ff33;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.top p{
+    margin:20px 0;
+	margin-bottom:25px;
+}
+.top h3{
+	
+    color:purple;
+	font-size:45px;
+	text-transform: capitalize;
+	font-weight: 700;
+
+	
+}
+.top h3:hover {color: #ff9933}
+.bottom img{
+	width:450px;
+	height:300px;
+	margin-top: 0;
+	margin-right: 100px;
+}
+.top img{
+	margin-top: 40px;
+	width: 300px;
+	height: 300px;
+}
+.top h2{
+	font-size:20px;
+	text-transform:capitalize;
+	font-weight:lighter;
+	margin-top:40px;
+	margin:20px 0;
+}
+.right h1:hover {color:hotpink;}
+.slot{
+	margin-right:60px;
+}
+.slot button{
+	padding:10px 45px;
+	text-align:center;
+	font-size:14px;
+	color:white;
+	border:none;
+	/*background-image:linear-gradient(to right,#649bff,#0070fa,#649bff);*/ 
+	border-radius:10px;
+
+	background:#b266ff;
+}
+ .slot button:hover {background-color: #00cccc}
+ .slot button:active {
+  background-color: #00cccc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  	padding:10px 45px;
+}
+.footer-col .social-links a:hover{
+	color: black;
+	background-color:seagreen;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color:coral;
+	transition: all 0.5s ease;
+}
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.blink{
+	animation: blink 1s infinite;
+
+}
+@keyframes blink{
+	0%{color:purple};
+	25%{color:red};
+	50%{color:green};
+	100%{color:pink};
+}
